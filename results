@@ -1,0 +1,42 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 1 -batch-size 10
+Relation:     diabetesPredictionOregon-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    19
+Attributes:   3
+              Ave
+              Lower
+              Upper
+Test mode:    split 75.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    1.7232759743982242
+    Node 1    -3.5959303963497344
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.018107919751177894
+    Attrib Ave    -2.476882808470209
+    Attrib Lower    1.2821216523922103
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 0.1 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.9999
+Mean absolute error                      0.0786
+Root mean squared error                  0.1013
+Relative absolute error                  6.0032 %
+Root relative squared error              6.528  %
+Total Number of Instances                5     
+
